@@ -11,8 +11,9 @@ header {
   height: 10vh;
   padding: 15px;
 }
-/* Styling the main section with an image as a background and covering the whole content, with the image centered */
+
 .gallery {
+  /* Styling the main section with an image as a background and covering the whole content, with the image centered */
   background: url("./images/mountains.jpg");
   background-size: cover;
   background-position: center;
@@ -36,20 +37,21 @@ header {
 }
 
 .card:hover {
- /* transform: allows to scale the card when the mouse passes over in that case  */
+  /* transform: allows to scale the card when the mouse passes over in that case  */
   transform: scale(1.1);
   /* box-shadow: allows to create a  three-dimensional effect when hovered over the cards  */
   box-shadow: 0 0 10px rgba(2, 22, 7, 0.4);
 }
 
 .image-container {
-    /* max-width: sets the maximun width of the image container */
+  /* max-width: sets the maximun width of the image container */
   max-width: 100%;
   height: 150px;
   /* overflow:hidden, ensure that the images look well across screen sizes and devices*/
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
+
 .image {
   width: 100%;
   height: 100%;
@@ -64,6 +66,7 @@ header {
   background-color: rgba(4, 33, 17, 0.495);
   color: aliceblue;
   border-radius: 0 0 5px 5px;
+  /* position: relative, it is used to position the image-caption relative to its normal flow within the container */
   position: relative;
 }
 
@@ -102,6 +105,7 @@ header {
 }
 
 footer {
+  /* position:absolute and bottom: 0 are used o stick the footer at the bottom of the page */
   position: absolute;
   bottom: 0;
   background-color: rgb(39, 135, 106);
