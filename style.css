@@ -75,37 +75,28 @@ header {
   height: 10%;
   text-align: center;
   clear: both;
-  margin: 2% 0;
 }
 
-#previous-btn {
-  background-color: rgba(35, 67, 50, 0.845);
+#previous-btn,
+#next-btn {
+  background-color: rgba(4, 33, 17, 0.495);
   color: aliceblue;
-  padding: 8px;
+  padding: 14px;
   margin-right: 10px;
   border-radius: 6px;
   border: none;
+  margin: 2rem 0.5rem 3rem;
+  cursor: pointer;
 }
 
-#previous-btn:hover {
-  background-color: rgba(46, 212, 124, 0.845);
-  color: black;
-  border: none;
-}
-
-#next-btn {
-  background-color: rgba(35, 67, 50, 0.845);
-  color: aliceblue;
-  padding: 8px;
-  border-radius: 6px;
-  border: none;
-}
-
+#previous-btn:hover,
 #next-btn:hover {
-  background-color: rgba(46, 212, 124, 0.845);
-  color: black;
+  background-color: rgba(33, 150, 87, 0.845);
+  color: aliceblue;
+  font-weight: bolder;
   border: none;
 }
+
 
 footer {
   background-color: rgb(39, 135, 106);
