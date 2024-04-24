@@ -2,7 +2,7 @@
 
 ### **Project description:**
 
-Design and implement HTML/CSS for the Travel Adventures Website.
+Design and implement HTML/CSS for the Photo Gallery Website.
 
 The Photo Gallery project is designed to practice and demonstrate the knowledge of CSS units, float, overflow, background image, and shadows. 
 The task is to create a web page that displays a photo gallery with images, captions, and navigation controls. 
